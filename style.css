@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.hole {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 10px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.hole.active {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/616/616408.png');
+  background-size: cover;
+}
+.info {
+  margin: 20px;
+  font-size: 18px;
+}
+已傳送
+撰寫內容給
